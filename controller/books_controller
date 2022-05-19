@@ -1,0 +1,7 @@
+// dependencies
+const express = require("express");
+const books = express.Router();
+// Index:
+books.get("/", (req, res) => {
+  res.send("welcome to books");
+});
